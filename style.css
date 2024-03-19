@@ -1,21 +1,29 @@
 html
 {
-  margin: 0;
+  /* margin: 0; */
+  margin-bottom: 10vh;
+  margin-top: 10vh;
   padding: 0;
+  
 }
 
 body
 {
-  background: url(teahub.io-light-wallpaper-hd-360584.jpg);
+  
+  background: url(Background.jpg);
   background-position: 0%;
   background-size: 110%;
+  
+
 }
 
 main
 {
   width:100%;
   height: 100%;
-  margin: 100px auto 100px auto;
+  /* margin: 100px auto 100px auto; */
+  display: block;
+  
 }
 
 form#register
@@ -33,18 +41,25 @@ div.register
   box-shadow:2px 2px 15px white;
   color:white;
   
+
   margin-left:auto;
   margin-right:auto;
   margin-top:auto;
-  margin-bottom:auto;  
+  margin-bottom:auto;
+
+  /* padding-top: 50%; */
+  
+
+  
 }
 
-h2
-{
+h2{
   text-align: center;
   padding-top: auto;
   padding-bottom:auto;
 }
+
+
 
 input#submit
 {
@@ -61,4 +76,5 @@ input#submit
 
   margin: 0 auto;
   display:block;
+
 }
